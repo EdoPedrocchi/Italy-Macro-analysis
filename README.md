@@ -4,6 +4,7 @@ Macroeconomic analysis of Italy from 1995 to 2023 with R
 
 [View the code used](code.R)
 
+## General descriptive statistics analysis of the dataset
 |       | NOMINAL GDP | DEFLATOR | INFLATION | UNEMPLOYMENT | GINI INDEX | NET LENDING_BORROWING | INTEREST PAYABLE | GROSS DEBIT | TOTAL EXPENDITURE | TOTAL REVENUE |
 |-------|-------------|----------|-----------|--------------|------------|-----------------------|------------------|-------------|-------------------|---------------|
 | Min.  | 988243      | 59912    | 68.50     | 7.90         | 29.00      | -9.400                | 3.400            | 103.9       | 46.50             | 43.20         |
@@ -14,7 +15,7 @@ Macroeconomic analysis of Italy from 1995 to 2023 with R
 | Max.  | 2085376     | 116585   | 120.90    | 12.90        | 33.40      | -1.300                | 11.100           | 155.0       | 56.80             | 48.10         |
 
 
-
+## Correlation of the variabiles in a table format
 
 |                            | NOMINAL GDP | DEFLATOR | INFLATION | UNEMPLOYMENT | GINI INDEX | NET LENDING_BORROWING | INTEREST PAYABLE | GROSS DEBIT | TOTAL EXPENDITURE | TOTAL REVENUE |
 |----------------------------|-------------|----------|-----------|--------------|------------|-----------------------|------------------|-------------|-------------------|---------------|
@@ -29,6 +30,7 @@ Macroeconomic analysis of Italy from 1995 to 2023 with R
 | TOTAL EXPENDITURE          | 0.48        | 0.68     | 0.60      | -0.26        | -0.01      | -0.96                 | -0.33            | 0.69        | 1.00              | 0.49          |
 | TOTAL REVENUE              | 0.18        | 0.45     | 0.55      | 0.63         | 0.23       | -0.22                 | 0.14             | 0.60        | 0.49              | 1.00          |
 
+## Corrleation matrix
 
 
 ![](IMAGES/CORR.png)
